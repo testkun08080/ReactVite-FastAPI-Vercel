@@ -19,18 +19,18 @@
     filter: drop-shadow(0 0 2em #fb9961ea);
   }
 
-  /* .logo.flask:hover {
-    filter: drop-shadow(0 0 2em #fb61daaa);
-  } */
-
   .logo.fastapi:hover {
     filter: drop-shadow(0 0 2em #63fd52aa);
   }
 
   .logo.tailwind:hover {
     filter: drop-shadow(0 0 2em #0ccaffaa);
-
   }
+
+  .logo.vercel:hover {
+    filter: drop-shadow(0 0 2em #434343aa);
+  }
+
 }
 
 
