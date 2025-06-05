@@ -1,0 +1,17 @@
+{
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "installCommand": "cd app && npm install",
+    "buildCommand": "cd app && npm run build",
+    "outputDirectory": "app/dist",
+    "routes": [
+        {
+            "src": "/api/?(.*)",
+            "dest": "api/app/main.py"
+        }
+    ],
+    "functions": {
+        "api/app/main.py": {
+            "maxDuration": 60
+        }
+    }
+}
