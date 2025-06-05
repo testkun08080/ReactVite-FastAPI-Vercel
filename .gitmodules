@@ -1,6 +1,3 @@
-[submodule "ReactVIte-vercel"]
-	path = ReactVIte-vercel
-	url = https://github.com/testkun08080/ReactVIte-vercel.git
 [submodule "FastAPI-vercel"]
 	path = FastAPI-vercel
 	url = https://github.com/testkun08080/FastAPI-vercel.git
