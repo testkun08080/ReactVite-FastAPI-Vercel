@@ -8,6 +8,14 @@
 それぞれのレポは以下をご覧ください
 - フロントエンド　https://github.com/testkun08080/ReactVite-vercel.git
 - バックエンド https://github.com/testkun08080/FastAPI-vercel.git
+  
+#### テンプレートを使って、とりあえずデプロイしたい方
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/testkun08080/ReactVite-FastAPI-Vercel)
+
+#### サンプルページ
+https://react-vite-fast-api-vercel.vercel.app/
+
 
 ### 注釈
 バックエンドはapiをルートにしないと、vercel上でうまく起動できなかったため、apiとしています。
