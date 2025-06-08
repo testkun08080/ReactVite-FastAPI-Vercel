@@ -16,22 +16,33 @@ requirements.txtも、ルートフォルダ以下に置かないとインスト�
 
 
 ## 前提条件
-それぞれのレポを参考にしてみてください。
----
+- npm Node.js 20+ (インストールは[こちら](https://nodejs.org/en/download/))
+- Python 3.12+ (vercelの最新が3.12対応のため - 2025/6/3)
+- uv (インストールは[こちら](https://docs.astral.sh/uv/getting-started/installation/))
+- Vercel CLI (インストールは[こちら](https://vercel.com/docs/cli#installing-vercel-cli/))
+
 
 ## Vercel CLI を使ってテストからデプロイ/ホスティングまで
 
-1. **ローカルでテスト**
+1. **クローン**
+    ```bash
+    git clone https://github.com/testkun08080/ReactVite-FastAPI-Vercel.git
+    cd ReactVite-FastAPI-Vercel
+   ```
+2. **モジュールをインストール**
+    ```bash
+    cd app
+    npm install
+    cd ..
+3. **ローカルでテスト**
     ```bash
     vercel dev
    ```
-
-2. **vercelへデプロイ（プレビューとして）**
+4. **vercelへデプロイ（プレビューとして）**
     ```bash
     vercel
    ```
-
-3. **、vercelへデプロイ（プロダクトとして）**
+5. **、vercelへデプロイ（プロダクトとして）**
     ```bash
     vercel --prod
    ```
